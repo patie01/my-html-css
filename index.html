@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card with image and tag</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+     .card {
+      width: 320px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .top-image {
+      width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #f4d04e;
+      color: #000;
+      font-weight: bold;
+      padding: 4px 10px;
+       font-size: 12px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .author-img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .author-name {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+  <img src="assets/images/illustration-article.svg" alt="Course" class="top-image">
+
+  <span class="tag">Learning</span>
+
+  <p>Published 21 Dec 2023</p>
+    <h2>HTML & CSS foundations</h2>
+
+  <p>These languages are the backbone of every website,defining structure,content, and presentation.</p>
+
+  <div class="author">
+    <img src="assets/images/image-avatar.webp" alt="Greg Hooper" class="author-img">
+    <p class="author-name">Greg Hooper</p>
+  </div>
+    </div>
+</body>
+</html>
